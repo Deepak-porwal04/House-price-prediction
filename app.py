@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Import the model
-pipe = pickle.load(open('lr_pipe.pkl','rb'))
+pipe = pickle.load(open('lr_model.pkl','rb'))
 data = pickle.load(open('df.pkl','rb'))
 st.title('House Price Predictor')
 
