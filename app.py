@@ -23,4 +23,4 @@ if st.button('Predict Price'):
     query = np.array([location, total_sqft, bath, bhk])
     query = query.reshape(1,4)
 
-    st.title('This House can cost you approximately ' +str(int(pipe.predict(query)[0])) + 'rs.')
+    st.title('This House can cost you approximately ', int(pipe.predict(query)[0]))
