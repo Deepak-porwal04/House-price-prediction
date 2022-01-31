@@ -28,7 +28,7 @@ This Model/WebApp predicts real estate price. Many times we have come across web
 5.  Jupyter notebook, visual studio code as IDE
 6.  Streamlit for Deployment
 ## Deployment
-This Web App is deployed to cloud (AWS EC2) where it can be accesssed. Running last command above will prompt that server is running on port 5000. 8. Now just load your cloud url in browser (for me it was ), website will open but it will not work unless I run this app's server in virtual OS Ubuntu.
+
 
 Web App Link(Heroku) -  [Visit here](https://www.house-price-demo.herokuapp.com/)
 
